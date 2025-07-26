@@ -19,11 +19,15 @@ A containerized Python development environment with database support, system too
 
 ---
 
-## 🐳 Run This Project with Docker
+## 🐳 Docker Usage
 
 ```bash
-git clone https://github.com/<moitrepo>/dev-env-setup.git
+# 1. Navigate to the project folder
 cd dev-env-setup/python-docker-db
+
+# 2. Build the Docker image
 docker build -t python-test .
+
+# 3. Run the container
 docker run python-test
 ```
